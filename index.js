@@ -1,4 +1,4 @@
-let automobiles = ['car', 'truck', 'motorcycle'];
+let automobiles = ['car', 'truck', 'motorcycle']
 
 automobiles.push('airplane', 'skateboard');
 
@@ -10,7 +10,8 @@ automobiles.pop();
 
 automobiles.shift();
 
-document.getElementById('result').innerHTML = automobiles.join(', ');
+document.getElementById('result').innerHTML = automobiles.join(',');
+
 
 
 
